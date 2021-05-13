@@ -18,5 +18,5 @@ a {
 }
 
 .message__content {
-  height: 5rem;
+  line-height: 3rem;
 }
