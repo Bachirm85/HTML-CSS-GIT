@@ -1,1 +1,59 @@
 /* Add your own CSS code below */
+.heart {
+  color: #c85308;
+}
+
+@media only screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 4rem;
+  }
+}
+.main-nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+}
+
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 767px) {
+  .views {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .views__all {
+    margin-left: auto;
+  }
+}
+
+.screen-reader {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  left: -2000px;
+}
+
+.branch {
+  display: flex;
+  flex-direction: column;
+}
+.main-article {
+  max-width: 50em;
+}
+.site-content {
+  display: flex;
+  justify-content: center;
+}
+
+.main-article p {
+  line-height: 1.6em;
+}
